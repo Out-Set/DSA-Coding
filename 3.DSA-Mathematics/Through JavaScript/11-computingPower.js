@@ -7,6 +7,6 @@ function computePower(num, pow){
     return res;
 }
 
-console.log(computePower(3,3))
+console.log(computePower(3,4))
 
 console.log(Math.pow(3,3))
