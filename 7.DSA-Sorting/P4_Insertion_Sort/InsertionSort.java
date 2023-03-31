@@ -1,3 +1,5 @@
+package P4_Insertion_Sort;
+
 public class InsertionSort {
     public static void main(String[] args) throws Exception {
 

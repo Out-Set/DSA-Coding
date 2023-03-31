@@ -1,3 +1,5 @@
+package P3_Selection_Sort;
+
 public class SelectionSort {
     public static void main(String[] args) throws Exception {
 
@@ -5,12 +7,14 @@ public class SelectionSort {
 
         // Naive Solution
         int n = arr.length;
+        System.out.println("Naive Solution: ");
         NaiveSolution.selectionSort(arr, n);
         for (int i : arr) {
             System.out.println(i);
         }
 
-        // 
+        // Optimized Solution
+        System.out.println("Optimized Solution: ");
         OptimizedSolution.selectionSort(arr, n);
         for (int i : arr) {
             System.out.println(i);
