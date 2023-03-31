@@ -17,7 +17,7 @@ public class EfficientSolution {
                 j--;
             } while(arr[j]%2!= 0);
 
-            if(arr[i]%2 != arr[j]%2){
+            if(i >= j){
                 return;
             }
     
