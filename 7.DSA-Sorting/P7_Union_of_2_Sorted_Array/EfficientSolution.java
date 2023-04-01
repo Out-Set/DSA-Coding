@@ -6,7 +6,10 @@ public class EfficientSolution {
         int a[] = new int[]{1, 1, 3, 3, 4, 5, 5, 6, 90};
         int b[] = new int[]{1, 5, 6, 7, 7, 12, 13, 13, 14};
 
-        EfficientSolution.effSol(a, b, 9, 9);
+        int m = a.length;
+        int n = b.length;
+
+        EfficientSolution.effSol(a, b, m, n);
 
     }
 
