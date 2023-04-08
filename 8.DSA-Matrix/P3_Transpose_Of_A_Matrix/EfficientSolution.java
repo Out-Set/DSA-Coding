@@ -1,6 +1,7 @@
 package P3_Transpose_Of_A_Matrix;
 
 // In-Place and One-Traversal
+// Aux Spaace = O(1)
 public class EfficientSolution {
     public static void main(String[] args) {
         

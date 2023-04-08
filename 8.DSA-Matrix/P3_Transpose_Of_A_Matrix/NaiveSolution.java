@@ -1,6 +1,6 @@
 package P3_Transpose_Of_A_Matrix;
 
-// Requires O(RXC), Aux Space
+// Requires, Aux Space: O(RXC)
 public class NaiveSolution {
     public static void main(String[] args) {
         
