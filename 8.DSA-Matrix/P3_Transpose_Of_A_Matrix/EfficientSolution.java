@@ -13,12 +13,12 @@ public class EfficientSolution {
         int C = 4;
 
         for(int i=0; i<R; i++){
-            for(int j=1+1; j<C; j++){
+            for(int j=i+1; j<C; j++){
                 
                 // Swap(mat[i][j], mat[j][i])
-                int temp = mat[j][i];
-                mat[j][i] = mat[i][j];
-                mat[i][j] = temp;
+                int temp = mat[i][j];
+                mat[i][j] = mat[j][i];
+                mat[j][i] = temp;
             }
         }
 
