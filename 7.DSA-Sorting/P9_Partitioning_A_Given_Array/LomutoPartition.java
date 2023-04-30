@@ -17,6 +17,7 @@ public class LomutoPartition {
 
     static int lPartition(int arr[], int low, int high){
 
+        // Usually last element is the pivot element
         int pivot = arr[high];
 
         int i = low - 1;
