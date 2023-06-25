@@ -1,7 +1,5 @@
 package Singly_Linked_List;
 
-import Singly_Linked_List.Traversing;
-
 public class Insertion {
     public static void main(String[] args) {
         

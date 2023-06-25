@@ -31,27 +31,3 @@ class Implementation {
     }
 }
 
-class Traversal {
-
-    // Iterative Traversal
-    public static void printList(Node head){
-        Node curr = head;
-
-        while(curr != null){
-            System.out.print(curr.data + " ");
-            curr = curr.next;
-        }
-    }
-
-    // Recursive Traversal
-    public static void recPrint(Node head){
-
-        if(head == null){
-            return;
-        }
-        
-        System.out.print(head.data + " ");
-        recPrint(head.next);
-    }
-}
-
