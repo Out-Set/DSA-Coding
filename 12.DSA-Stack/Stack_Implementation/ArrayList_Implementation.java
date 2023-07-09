@@ -1,4 +1,4 @@
-package Stack;
+package Stack_Implementation;
 
 import java.util.ArrayList;
 
@@ -44,6 +44,7 @@ class MyStack2 {
     }
 
 }
+
 public class ArrayList_Implementation {
     public static void main(String[] args) {
         MyStack2 st = new MyStack2();

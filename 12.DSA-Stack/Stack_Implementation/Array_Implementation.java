@@ -1,4 +1,4 @@
-package Stack;
+package Stack_Implementation;
 
 class MyStack1 {
     int st[];
@@ -62,6 +62,7 @@ class Array_Implementation {
         st.push(30);
         st.push(40);
         st.push(50);
+
         // st.push(60);
 
         while(st.isEmpty() != true){
@@ -70,9 +71,9 @@ class Array_Implementation {
 
         System.out.println(st.pop());
 
-        System.out.println(st.peek());
+        // System.out.println(st.peek());
 
-        System.out.println(st.isEmpty());
+        // System.out.println(st.isEmpty());
                 
     }
 }
