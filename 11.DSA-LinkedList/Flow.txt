@@ -1,0 +1,18 @@
+Topics---->>
+---------------
+
+1.Singly Linked List
+2.Doubly Linked List
+3.Circular Singly Linked List
+4.Circular Doubly Linked List
+5.Problems on Linked List
+
+Sub-Topics------>>
+--------------------------
+1.Implementation
+2.Traversal
+3.Insertion
+4.Deletion
+5.Searching
+6.Reversal
+
