@@ -16,9 +16,13 @@ public class Deletion {
 
 
         // Delete Last
-        Node n1 = delLast(head);
-        Traversal.printList(n1);
+        // Node n1 = delLast(head);
+        // Traversal.printList(n1);
         
+
+        // Delete Kth Node
+        // Node n2 = delKthNode(head, 3);
+        // Traversal.printList(n2);
     }
 
 
@@ -65,6 +69,28 @@ public class Deletion {
         }
 
         curr.next = head;
+
+        return head;
+    }
+
+
+
+    // Delete Kth Node
+    static Node delKthNode(Node head, int k) {
+        if(head == null) {
+            return null;
+        }
+
+        if(k == 1) {
+            return Deletion.delHead(head);
+        }
+
+        Node curr = head;
+        for(int i=0; i<k-2; i++){
+            curr = curr.next;
+        }
+
+        curr.next = curr.next.next;
 
         return head;
     }

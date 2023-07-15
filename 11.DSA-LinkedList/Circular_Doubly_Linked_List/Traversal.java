@@ -20,6 +20,7 @@ public class Traversal {
         head.prev = head.next.next.next.next;
 
 
+        // Print Circular Doubly Linked List
         printCDLL(head);
         
     }
@@ -36,7 +37,9 @@ public class Traversal {
             System.out.println(curr.data);
             curr = curr.next;
         }
-        while(curr.next != head);
+        while(curr != head);
         
     }
+
+    
 }

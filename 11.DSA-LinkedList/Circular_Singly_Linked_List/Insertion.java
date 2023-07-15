@@ -31,6 +31,7 @@ public class Insertion {
         temp.next = head.next;
         head.next = temp;
 
+        // Swap data of head and temp
         int t = temp.data;
         temp.data = head.data;
         head.data = t;
@@ -51,6 +52,7 @@ public class Insertion {
         temp.next = head.next;
         head.next = temp;
 
+        // Swap data of head and temp
         int t = temp.data;
         temp.data = head.data;
         head.data = t;

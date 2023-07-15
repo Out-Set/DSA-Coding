@@ -48,13 +48,13 @@ public class Searching {
             return 1;
         }
         else{
-            int res = recSearch(head.next, x);
+            int pos = recSearch(head.next, x);
 
-            if(res == -1){
+            if(pos == -1){
                 return -1;
             }
             else{
-                return res+1;
+                return pos+1;
             }
         }
     }
