@@ -12,6 +12,7 @@ class Node {
 class MyStack3 {
 
     Node head;
+            // Overflow
     int size;
 
     MyStack3(){
@@ -29,6 +30,7 @@ class MyStack3 {
     int pop(){
 
         if(head == null){
+            // Underflow
             return Integer.MAX_VALUE;
         }
 

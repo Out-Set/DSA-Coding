@@ -11,6 +11,8 @@ class MyStack2 {
     }
 
     void push(int d){
+        
+        // Since, ArrayList grows dynamically. So, no overflow situation here.
         top++;
         st.add(d);
     }
