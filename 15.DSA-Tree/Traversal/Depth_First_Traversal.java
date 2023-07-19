@@ -17,6 +17,7 @@ public class Depth_First_Traversal {
         root.left = new Node(20);
         root.right = new Node(30);
         root.left.left = new Node(40);
+        root.left.right = new Node(50);
 
         // In-order Traversal
         System.out.println("Inorder Traversal");
