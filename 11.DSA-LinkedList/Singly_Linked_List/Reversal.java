@@ -14,8 +14,8 @@ public class Reversal {
 
 
         // Recursive Reverse
-        Node resNode2 = recRevSLL(head);
-        Traversing.printList(resNode2);
+        // Node resNode2 = recRevSLL(head);
+        // Traversing.printList(resNode2);
     }
 
 
