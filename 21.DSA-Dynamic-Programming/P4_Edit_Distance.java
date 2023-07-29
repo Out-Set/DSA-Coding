@@ -7,7 +7,7 @@ public class P4_Edit_Distance {
         int n = s2.length();
 
         // Recursive Solution
-        System.out.println(eD(s1, s2, m, n));
+        // System.out.println(eD(s1, s2, m, n));
 
         // Dynamic Solution
         System.out.println(dED(s1, s2, m, n));
@@ -46,7 +46,7 @@ public class P4_Edit_Distance {
         }
 
         for(int i=1; i<=m; i++){
-            for(int j=1; i<=n; j++){
+            for(int j=1; j<=n; j++){
                 if(s1.charAt(i-1) == s2.charAt(j-1)){
                     dp[i][j] = dp[i-1][j-1];
                 }

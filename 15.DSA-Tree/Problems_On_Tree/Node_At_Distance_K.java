@@ -1,14 +1,5 @@
 package Problems_On_Tree;
 
-class Node {
-    int key;
-    Node left;
-    Node right;
-
-    Node(int k) {
-        key = k;
-    }
-}
 
 public class Node_At_Distance_K {
     public static void main(String[] args) {
