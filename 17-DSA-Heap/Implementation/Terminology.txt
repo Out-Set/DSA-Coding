@@ -1,0 +1,10 @@
+Functions of Heap
+------------------
+
+1. Print Heap
+2. Heap Insert
+3. Min-Heapify
+4. Extract Min
+5. Decrease Key
+6. Delete
+7. Build Heap
