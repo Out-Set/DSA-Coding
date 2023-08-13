@@ -186,15 +186,15 @@ class Implementation {
 
 
         // 5.Delete
-        // int delInd = 3;
-        // h.delete(delInd);
-        // System.out.println("After deleting the value at index " + delInd + ",  the heap is right now: ");
-        // h.printHeap();
+        int delInd = 3;
+        h.delete(delInd);
+        System.out.println("After deleting the value at index " + delInd + ",  the heap is right now: ");
+        h.printHeap();
 
 
-        // 6.Build Heap
-        h.buildHeap();
-        System.out.println("The new heap is: ");
-        h.printHeap();        
+        // // 6.Build Heap
+        // h.buildHeap();
+        // System.out.println("The new heap is: ");
+        // h.printHeap();        
     }
 }
